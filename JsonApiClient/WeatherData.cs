@@ -1,12 +1,15 @@
-﻿using System;
+﻿/// Author:         Anthony Baker
+/// Date:           May 4th, 2013
+/// Description:    JsonAPIClient - Sample JSON API Consumption
+
 using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace JsonApiClient
 {
+    /// <summary>
+    /// Class to represent the WeatherData
+    /// </summary>
     [DataContract]
     public class WeatherData
     {
